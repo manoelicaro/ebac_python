@@ -7,137 +7,140 @@
 header,
 section h2,
 section h3,
-form button{
+form button {
     font-family: "Bungee", cursive;
     font-weight: normal;
 }
 
 body,
 input,
-textarea{
+textarea {
     font-family: "Roboto", sans-serif;
 }
 
-header{
+header {
     padding: 16px 0;
-    background-color: #182C61;
+    background-color: #182c61;
     color: #ecf0f1;
 }
 
-header nav li{
+header nav li {
     display: inline;
     margin-left: 16px;
     font-size: 18px;
 }
 
-header nav li a{
+header nav li a {
     color: #ecf0f1;
     text-decoration: none;
 }
 
-.container{
+.container {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
 }
 
-header .container{
+header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.brand-list img{
+.brand-list img {
     height: 24px;
 }
 
-.brand-list li{
+.brand-list li {
     display: inline;
     margin-right: 8px;
 }
 
-section .container{
+section .container {
     display: flex;
     align-items: flex-start;
 }
 
-section{
+section {
     padding: 24px 0;
 }
 
-section h2{
+section h2 {
     margin-bottom: 16px;
 }
 
-section{
+section {
     color: #182c61;
 }
 
-section p{
+section p {
     margin-bottom: 8px;
 }
 
-.store-front{
+.store-front {
     margin-right: 32px;
 }
 
-.social-links img{
+/*Não consigo entrar com a cascata, todas as vezes que tento o navegador nao consegue ler*.brand-list*/
+
+.social-links img {
     width: 24px;
 }
 
-.social-links li{
+.social-links li {
     display: inline;
     margin-right: 8px;
 }
 
-.social-links li a{
+.social-links li a {
     text-decoration: none;
 }
 
-#contact .container{
+#contact .container {
     display: block;
 }
 
-.contact-methods{
+.contact-methods {
     display: flex;
     justify-content: space-between;
 }
 
 form input,
 form textarea,
-form button{
+form button {
     display: block;
     width: 320px;
     margin-bottom: 8px;
     padding: 8px;
 }
 
-form textarea{
+form textarea {
     resize: none;
     height: 180px;
 }
 
-section h3{
+section h3 {
     margin-bottom: 16px;
 }
 
-form button{
-    background-color: #182C61;
+form button {
+    background-color: #182c61;
     color: #ecf0f1;
     border: none;
     cursor: pointer;
 }
 
-form button:hover{
+form button:hover {
     background-color: #30498c;
 }
 
-input:focus, textarea:focus{
-    outline-color: #182C61;
+input:focus,
+textarea:focus {
+    outline-color: #182c61;
 }
 
-footer{
-    background-color: #182C61;
+footer {
+    background-color: #182c61;
     color: #ecf0f1;
     padding: 16px 0;
 }
