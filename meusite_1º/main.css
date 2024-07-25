@@ -1,0 +1,78 @@
+/* Estilos Globais */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Cabeçalho */
+header {
+    font-family: "Cinzel Decorative", serif;
+    padding: 16px 0%;
+    background-color: rgb(250, 20, 30);
+    color: rgb(50, 50, 125);
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: rgb(50, 50, 125);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section .container {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Body */
+body {
+    font-family: "Cinzel", serif;
+    background-color: rgb(190, 180, 215);
+}
+
+.brand-list img {
+    height: 24px;
+}
+
+.brand-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    display: flex;
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.logo-review {
+    margin-right: 32px;
+}
