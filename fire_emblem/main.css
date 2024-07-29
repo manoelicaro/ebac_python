@@ -114,3 +114,42 @@ section#plot {
 section#battle-system {
     background-color: rgba(176, 117, 213, 0.45); /* Cor de fundo para a seção Batalha e Progressão */
 }
+
+/* Seção de Contato */
+section#contact {
+    background-color: #f0f8ff; /* Cor de fundo para a seção de contato */
+    padding: 24px 0;
+}
+
+section#contact h2 {
+    margin-bottom: 16px;
+}
+
+section#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+section#contact form label {
+    margin-bottom: 8px;
+}
+
+section#contact form input,
+section#contact form textarea {
+    margin-bottom: 16px;
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+}
+
+section#contact form button {
+    background-color: #182c61;
+    color: #ecf0f1;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+section#contact form button:hover {
+    background-color: #30498c;
+}
