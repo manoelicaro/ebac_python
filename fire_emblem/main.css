@@ -1,0 +1,116 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container img {
+    height: 300px;
+}
+
+/* Corpo */
+body {
+    font-family: "Cinzel", serif;
+    background-color: #f5f5f5;
+    color: #132dd3;
+    padding: 16px;
+
+/* Cabeçalho */
+header {
+    padding: 16px 0;
+    background-color: #d0153b;
+    color: #132dd3;
+    font-family: "Cinzel Decorative", serif;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #132dd3;
+    text-decoration: none;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Seção */
+section {
+    padding: 24px 0;
+    color: #132dd3;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    order: -1;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+section .container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+section img {
+    margin-right: 16px; /* Espaço entre a imagem e o texto */
+}
+
+section h2, section p {
+    margin-bottom: 8px;
+}
+
+/* Seção */
+section .container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row; /* Alinha os itens em uma linha */
+}
+
+section img {
+    margin-right: 16px; /* Espaço entre a imagem e o texto */
+}
+
+section .text-content {
+    display: flex;
+    flex-direction: column; /* Garante que o título fique acima do parágrafo */
+}
+
+section h2, section p {
+    margin-bottom: 8px;
+}
+section h2 {
+    margin-bottom: 16px;
+}
+
+/* Seção Sobre o jogo */
+section#review {
+    background-color: rgba(157, 89, 171, 0.49); /* Cor de fundo para a seção Sobre o jogo */
+}
+
+/* Seção Enredo */
+section#plot {
+    background-color: rgba(170, 85, 190, 0.47); /* Cor de fundo para a seção Enredo */
+}
+
+/* Seção Batalha e Progressão */
+section#battle-system {
+    background-color: rgba(176, 117, 213, 0.45); /* Cor de fundo para a seção Batalha e Progressão */
+}

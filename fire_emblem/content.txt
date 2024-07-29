@@ -1,0 +1,19 @@
+// Resumo
+Fire Emblem Engage é um jogo de RPG tático desenvolvido pela Intelligent Systems e publicado pela Nintendo. Lançado para o Nintendo Switch, o jogo combina elementos de estratégia e narrativa, onde os jogadores comandam um exército de heróis em batalhas por turnos. A história gira em torno de um jovem herói que deve reunir aliados e enfrentar forças malignas para salvar o reino. Com gráficos vibrantes e uma jogabilidade envolvente, Fire Emblem Engage oferece uma experiência rica e desafiadora para os fãs da série e novos jogadores.
+
+// História
+A história de Fire Emblem Engage se passa em um mundo de fantasia, onde o reino de Askr está sob ameaça de um exército de monstros e demônios. O jogador assume o papel de um jovem herói que deve reunir aliados e lutar contra as forças do mal para salvar o reino. Ao longo da jornada, o jogador encontrará personagens cativantes, enfrentará desafios emocionantes e descobrirá segredos antigos que mudarão o destino de Askr para sempre. Com reviravoltas surpreendentes e escolhas difíceis, a história de Fire Emblem Engage promete manter os jogadores envolvidos do início ao fim.
+
+// Personagens e jogabilidade
+Fire Emblem Engage apresenta uma ampla variedade de personagens jogáveis, cada um com habilidades únicas e histórias cativantes. Os jogadores podem recrutar novos aliados, treinar seus heróis e personalizar suas habilidades para se adequar à sua estratégia de batalha. A jogabilidade combina elementos de estratégia em turnos, onde os jogadores devem posicionar suas unidades no campo de batalha e usar táticas inteligentes para derrotar seus inimigos. Com uma variedade de classes, armas e habilidades disponíveis, os jogadores podem experimentar diferentes estratégias e estilos de jogo para superar desafios cada vez mais difíceis.
+
+// Sistema de batalha e progressão
+O sistema de batalha de Fire Emblem Engage é baseado em turnos, onde os jogadores alternam entre mover suas unidades e atacar os inimigos. Cada personagem tem estatísticas únicas, como pontos de vida, força e velocidade, que influenciam seu desempenho em combate. Os jogadores podem usar habilidades especiais, como ataques críticos e magias, para virar o jogo a seu favor. À medida que os personagens ganham experiência em batalha, eles sobem de nível e desbloqueiam novas habilidades e classes. Os jogadores também podem equipar seus heróis com armas e itens para aumentar seu poder e resistência.
+
+// Data de lançamento e recepção
+O jogo "Fire Emblem Engage" foi lançado em 20 de janeiro de 2023 e recebeu críticas positivas da crítica e dos jogadores. Os elogios foram direcionados à jogabilidade estratégica, à narrativa envolvente e aos personagens carismáticos. O jogo também foi elogiado por sua trilha sonora épica e gráficos impressionantes. Com uma variedade de modos de jogo e conteúdo adicional, Fire Emblem Engage oferece horas de diversão para os fãs de RPG tático.
+
+// Conclusão
+Fire Emblem Engage é um jogo envolvente e desafiador que combina estratégia, narrativa e ação em um pacote completo. Com uma variedade de personagens, classes e habilidades, os jogadores podem experimentar diferentes estratégias e estilos de jogo para superar desafios emocionantes. Com uma história cativante, gráficos impressionantes e uma trilha sonora épica, Fire Emblem Engage oferece uma experiência rica e imersiva para os fãs de RPG tático. Se você é um fã da série Fire Emblem ou está procurando um novo desafio, não deixe de conferir Fire Emblem Engage no Nintendo Switch.
+
+// Fim do arquivo
