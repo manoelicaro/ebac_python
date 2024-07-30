@@ -1,6 +1,5 @@
-UPDATES
-———————————————————————————————
+//UPDATES
 
 0.1 - Feedback do professor
-	- Imagens não estão abrindo por conta do formato proprietário apple (fazer a conversão de todos os arquivos da pasta “img”
-	- Fazer o teste em outros PCs
+- Imagens não estão abrindo por conta do formato proprietário apple (fazer a conversão de todos os arquivos da pasta “img”
+- Fazer o teste em outros PCs
