@@ -1,0 +1,74 @@
+/* Define padding e margin zero para todos os elementos */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Estiliza o elemento main */
+main {
+    padding: 10px;
+    height: 80vh; /* Define a altura como 80% da altura da viewport */
+}
+
+/* Estiliza o formulário */
+form {
+    margin: 10; /* Define a margem do formulário */
+    border: 1px solid gray; /* Define uma borda cinza de 1px */
+    border-radius: 10px; /* Define bordas arredondadas */
+    padding: 20px; /* Define o preenchimento interno */
+    box-shadow: 1px 1px gray; /* Adiciona uma sombra cinza */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estiliza todos os inputs */
+input {
+    margin-bottom: 5px; /* Define a margem inferior */
+    font-size: 16px; /* Define o tamanho da fonte */
+    border-radius: 10px; /* Define bordas arredondadas */
+}
+
+/* Estiliza inputs do tipo texto */
+input[type="text"] {
+    padding: 5px; /* Define o preenchimento interno */
+    outline: none; /* Remove o contorno padrão */
+    width: 90%; /* Define a largura como 90% do elemento pai */
+}
+
+/* Estiliza inputs do tipo submit */
+input[type="submit"] {
+    padding: 5px 10px; /* Define o preenchimento interno */
+    margin-bottom: 5px; /* Define a margem inferior */
+    background-color: lightgreen; /* Define a cor de fundo */
+    width: 50%; /* Define a largura como 50% do elemento pai */
+}
+
+/* Estiliza a div com a classe list */
+.list {
+    padding: 10px; /* Define o preenchimento interno */
+    margin-top: 10px; /* Define a margem superior */
+    height: 60%; /* Define a altura como 60% do elemento pai */
+    background-color: lightyellow; /* Define a cor de fundo */
+}
+
+/* Estiliza a lista não ordenada */
+ul {
+    list-style: none; /* Remove os marcadores da lista */
+    overflow: scroll; /* Adiciona barra de rolagem se necessário */
+    height: 100%; /* Define a altura como 100% do elemento pai */
+    font-family: "Courier New"; /* Define a fonte */
+}
+
+/* Estiliza os itens da lista */
+li {
+    border-bottom: 1px solid darkblue; /* Adiciona uma borda inferior */
+    margin-top: 5px; /* Define a margem superior */
+}
+
+/* Estiliza os botões */
+button {
+    margin-left: 10px; /* Define a margem à esquerda */
+    border: none; /* Remove a borda */
+    background: none; /* Remove o fundo */
+    cursor: pointer; /* Define o cursor como pointer */
+    color: red; /* Define a cor do texto */
+}
