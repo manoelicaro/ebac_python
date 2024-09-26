@@ -1,0 +1,100 @@
+/* Reset básico para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Estilos para o corpo da página */
+body {
+    background-color: #f5f5f7;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    flex-direction: column;
+}
+
+/* Estilos para o título principal */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Estilos para o formulário */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para o campo de entrada de texto */
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-right: 10px;
+    transition: border-color 0.3s;
+}
+
+/* Estilos para o campo de entrada de texto quando está em foco */
+input[type="text"]:focus {
+    border-color: #34c759;
+    outline: none;
+}
+
+/* Estilos para o botão */
+button {
+    padding: 10px 20px;
+    background-color: #34c759;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Estilos para o botão quando está em hover */
+button:hover {
+    background-color: #28a745;
+}
+
+/* Estilos para a lista de tarefas */
+ul {
+    list-style: none;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Estilos para os itens da lista de tarefas */
+li {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition:
+        background-color 0.3s,
+        text-decoration 0.3s;
+}
+
+/* Estilos para os itens da lista de tarefas quando estão em hover */
+li:hover {
+    background-color: #f0f0f0;
+}
+
+/* Estilos para os itens da lista de tarefas quando estão concluídos */
+li.completed {
+    text-decoration: line-through;
+    color: #999;
+}
