@@ -1,0 +1,173 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização do corpo */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilização do cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #d95d00;
+    color: #1e1e2f;
+    font-family: 'Audiowide', cursive;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #1e1e2f;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+/* Estilização da seção "Sobre a Loja" */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d95d00; 
+    color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap; 
+    overflow: hidden; 
+}
+
+.about img {
+    width: 50%;
+    height: auto;
+    margin-right: 20px; 
+}
+
+.sobre-a-loja {
+    max-width: 50%;
+    background-color: transparent; 
+    padding: 0; 
+    border-radius: 0; 
+    position: static; 
+    transform: none; 
+}
+
+.sobre-a-loja h2 {
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilização da seção "Produtos" */
+.produtos {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.produtos h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.games-nintendo, .games-playstation, .games-xbox {
+    margin-bottom: 40px;
+}
+
+.games-nintendo img, .games-playstation img, .games-xbox img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.games-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.game-item {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.game-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.game-item h4 {
+    margin: 10px 0;
+}
+
+.game-item p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.game-item button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.game-item button:hover {
+    background-color: #555;
+}
+
+/* Media Queries para responsividade */
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column; 
+        padding: 10px; 
+    }
+
+    .about img {
+        order: -1; 
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .sobre-a-loja {
+        max-width: 100%;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .games-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px;
+    }
+
+    .game-item {
+        width: 100%;
+        margin-bottom: 0; 
+    }
+}
