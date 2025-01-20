@@ -1,0 +1,14 @@
+{
+  "name": "exercicio_less",
+  "version": "1.0.0",
+  "description": "Projeto de conversão de CSS para LESS",
+  "main": "index.html",
+  "scripts": {
+    "build-css": "lessc src/less/styles.less src/styles.css"
+  },
+  "author": "Manoel",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^4.1.2"
+  }
+}
